@@ -5,9 +5,10 @@ public class miniProject {
              Scanner sc = new Scanner(System.in);
              int myNumber = (int)(Math.random()*100);
              int userNumber= 0;
-             
+    
+               System.out.println("I AM COMPUTER. I HAVE GENARATED A NUMBER BETWEEN 1-100. CAN YOU GUESS IT.");
              do {
-               System.out.println("GUSS MY NUMBER:");
+               System.out.println("GUESS MY NUMBER:");
                 userNumber= sc.nextInt();
                if (userNumber == myNumber) {
                  System.out.println("CONGRATULATION");
